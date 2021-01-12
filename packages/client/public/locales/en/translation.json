@@ -1,0 +1,232 @@
+{
+  "business": {
+    "profile": {
+      "saveChanges": "Save Changes",
+      "yourProfile": "Your Profile",
+      "generalInformation": "General Information",
+      "id": "ID",
+      "companyName": "Company Name",
+      "email": "Email",
+      "phone": "Phone",
+      "newPassword": "New password",
+      "confirmNewPassword": "Confirm New Password",
+      "currentPassword": "Current Password",
+      "changePassword": "Change Password",
+      "messages": {
+        "passwordUpdatedSuccessfully": "Password updated successfully",
+        "passwordUpdateError": "An error occurred on update the password",
+        "profileUpdateError": "An error occurred while updating the profile",
+        "profileUpdatedSuccessfully": "Profile updated successfully",
+        "wrongPassword": "The currecten password isn't correct",
+        "demoBusiness": "You can not change profile settings as a demo business!"
+      }
+    },
+    "subscription": {
+      "oneWeek": "One week",
+      "oneMonth": "One month",
+      "oneYear": "One year",
+      "titleText": "If you want to identify the visitors of your restaurants, your bars, etc., just use our identification service. With our service, your visitors don't have to fill out those annoying pieces of paper, they just have to scan your QR code when they check-in. To use our service, you need to choose one of our tiers and book it. If you have any open questions, just send us an email.",
+      "activeSubscription": "You have an active subscription to \"{{tier}}\" until {{until}}",
+      "usage": "Your usage",
+      "seats": "Seats",
+      "locations": "Locations",
+      "extendSubscription": "If you want to extend your subscription just book your tier again and we will handle the extension of your subscription",
+      "week": "Week",
+      "onRequest": "On request",
+      "loading": "Loading...",
+      "mostPopular": "Most popular",
+      "alerts": {
+        "noActiveSubscription": "Currently you don't have an active subscription. Please book one of our offers to use our service. Thank you!"
+      }
+    },
+    "appBar": {
+      "home": "Home",
+      "profile": "Profile",
+      "logout": "Logout",
+      "subscriptions": "Subscription"
+    },
+    "home": {
+      "extend": "Extend",
+      "locations": "Locations",
+      "alertText": "Your booked tier will expire within the next {{days}} days. If you want to continue using our service, please extend your booking. Thank you.",
+      "noSubscription": "No Subscription",
+      "noSubscriptionTooltip": "Please book a tier"
+    },
+    "charts": {
+      "averagePerDay": "Ø Visits per day",
+      "totalVisits": "Total Visits (last 30 days)",
+      "averageOccupation": "Ø Occupation (last 30 days)",
+      "occupation": "Occupation",
+      "visits": "Visits",
+      "days": "Days",
+      "day": "Day",
+      "notEnoughData": "Sorry, we currently do not have enough data to display any statistics."
+    },
+    "locations": {
+      "addLocation": "Add location",
+      "deleteModalText": "Are you sure you want to delete this location?",
+      "noLocation": "Currently there are no locations. You can add one if you want."
+    },
+    "locationCard": {
+      "capacity": "Capacity",
+      "currentVisits": "Current visits",
+      "visits": "Visits",
+      "delete": "Delete",
+      "detailsAndEdit": "Details & Edit"
+    },
+    "visitDrawer": {
+      "currentVisits": "Current visits",
+      "noVisits": "Currently there are no visits",
+      "exportVisits": "Export visits",
+      "sendToHealthDepartment": "Send to health department"
+    },
+    "locationDrawer": {
+      "locationDetails": "Location Details",
+      "reachedLimit": "You can't add a location because you reached your tiers limit",
+      "inputs": {
+        "generalInformation": {
+          "title": "General information",
+          "id": "ID",
+          "name": "Name",
+          "street": "Street",
+          "number": "Number",
+          "postcode": "Postcode",
+          "city": "City"
+        },
+        "categoryAndCapacity": {
+          "title": "Category and capacity",
+          "capacity": "Capacity",
+          "category": "Category"
+        },
+        "clickToEdit": "click on image to edit"
+      },
+      "cancel": "Cancel",
+      "save": "Save",
+      "demoBusinessAlert": "You can not change or create locations as a demo business!"
+    }
+  },
+  "person": {
+    "home": {
+      "imageSubtitle": "Search for Locations!",
+      "searchPlaceholder": "Seach for Locations",
+      "noResults": "No results found!"
+    },
+    "profile": {
+      "profile": "Profile",
+      "profileSettings": "Profile Settings",
+      "changeEmail": "Change Email Address",
+      "changePassword": "Change Password",
+      "editContactInfo": "Edit Contact Data",
+      "visitsHistory": "Visited Locations",
+      "signOut": "Sign Out",
+      "signOutMessage": "Are you sure you want to sign out? Currently you are signed in to a location and you will automatically be checked out.",
+      "alerts": {
+        "emailConfirmation": "Updated email to ",
+        "emailError": "An error occured while updating the email",
+        "passwordSuccess": "Password changed successfully!",
+        "passwordError": "Error while updating password!",
+        "wrongPassword": "Wrong Password!",
+        "profileSuccess": "Profile was successfully updated!",
+        "profileError": "Error occured while updating the profile",
+        "appSettingsConfirmation": "Profile was successfully updated!",
+        "appSettingsError": "Error occured while updating settings!",
+        "demoUserEmail": "You can not change emails as a demo user!",
+        "demoUserPassword": "You can not change your password as a demo user!",
+        "demoUserData": "You can not change your contact data as a demo user!"
+      },
+      "email": {
+        "currentEmail": "Current Email Address",
+        "newEmail": "New Email Address",
+        "changeEmail": "Change Email",
+        "invalidEmail": "Invalid Email"
+      },
+      "password": {
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "repeatPassword": "Repeat New Password",
+        "changePassword": "Change Password"
+      },
+      "appSettings": "App Settings",
+      "appSetting": {
+        "radius": "Radius",
+        "language": "Language",
+        "english": "English",
+        "german": "German",
+        "saveSettings": "Save Settings"
+      }
+    },
+    "bottomNavigation": {
+      "profile": "Profile",
+      "scanner": "Scanner",
+      "home": "Home"
+    },
+    "checkIn": {
+      "checkedIn": "You're checked in!",
+      "time": "Time:",
+      "at": "at",
+      "clock": " ",
+      "location": "Location:",
+      "address": "Address:",
+      "checkOut": "Check Out",
+      "checkingIn": "Please wait! We are checking you in...",
+      "preparingCheckIn": "Please wait! We are preparing your check in",
+      "checkInDescription": "You are currently checked in to a location. We will automatically\n            check you out if you leave this location. If you want to do it\n            manually you can press the \"Check out\"-button below. Thanks for your\n            visit!"
+    },
+    "locationCard": {
+      "occupation": "Occupation"
+    }
+  },
+  "confirmationModal": {
+    "yes": "Yes",
+    "no": "No",
+    "title": "Are you sure?",
+    "defaultMessage": "Do you want to continue?"
+  },
+  "signIn": {
+    "email": "Email Address",
+    "password": "Password",
+    "signIn": "Sign In",
+    "noAccount": "Don't have an account? Sign Up",
+    "register": "Register",
+    "alerts": {
+      "verificationSuccessful": "Account verification successful. You can sign in to your account now.",
+      "registrationSuccessful": "Your registration was successful. You received a mail to confirm your account. Please also check your 'Spam' folder",
+      "validEmail": "Please insert a valid email address",
+      "passwordResetSuccessful": "If an account with this mail exists, a mail was sent to reset your password"
+    },
+    "errors": {},
+    "forgotPassword": "Forgot password?"
+  },
+  "modals": {
+    "save": "Save",
+    "ok": "OK"
+  },
+  "signUp": {
+    "errors": {
+      "isRequired": "This field is required",
+      "passwordLength": "The password should be at least 6 characters long",
+      "confirmWeakPassword": "Please confirm the usage of a weak password",
+      "validEmail": "Please enter a valid email address"
+    },
+    "business": {
+      "title": "Business",
+      "companyName": "Company Name"
+    },
+    "person": {
+      "title": "Person",
+      "lastName": "Last Name",
+      "firstName": "First Name",
+      "street": "Street",
+      "number": "No.",
+      "additionalInfo": "Additional Information",
+      "code": "ZIP",
+      "city": "City"
+    },
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "password": "Password",
+    "weakPassword": "Yes, I want to use a weak password",
+    "alreadyAccount": "Already have an account? Sign in",
+    "signUp": "Sign Up"
+  }
+}

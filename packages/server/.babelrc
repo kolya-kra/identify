@@ -1,0 +1,26 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": true
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["."],
+        "alias": {
+          "@lib": "./src/lib",
+          "@src": "./src",
+          "@api": "./src/api",
+          "@cron": "./src/cronjobs"
+        }
+      }
+    ]
+  ]
+}

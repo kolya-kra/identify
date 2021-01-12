@@ -1,0 +1,232 @@
+{
+  "business": {
+    "profile": {
+      "saveChanges": "Änderungen speichern",
+      "yourProfile": "Ihr Profil",
+      "generalInformation": "Allgemeine Informationen",
+      "id": "ID",
+      "companyName": "Unternehmensname",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "newPassword": "Neues Passwort",
+      "confirmNewPassword": "Neues Passwort bestätigen",
+      "currentPassword": "Aktuelles Passwort",
+      "changePassword": "Passwort ändern",
+      "messages": {
+        "passwordUpdatedSuccessfully": "Passwort erfolgreich aktualisiert",
+        "passwordUpdateError": "Bei der Aktualisierung ist ein Fehler aufgetreten",
+        "profileUpdateError": "Bei der Aktualisierung ist ein Fehler aufgetreten",
+        "profileUpdatedSuccessfully": "Profil erfolgreich aktualisiert",
+        "wrongPassword": "Das aktuelle Passwort ist nicht korrekt",
+        "demoBusiness": "Du kannst als Demo Business keine Einstellungen ändern!"
+      }
+    },
+    "subscription": {
+      "oneWeek": "Eine Woche",
+      "oneMonth": "Ein Monat",
+      "oneYear": "Ein Jahr",
+      "titleText": "Wenn Sie die Besucher Ihrer Restaurants, Ihrer Bars, etc. identifizieren wollen, nutzen Sie einfach unseren Identifizierungsservice. Mit unserem Service müssen Ihre Besucher nicht diese lästigen Zettel ausfüllen, sondern sie müssen nur Ihren QR-Code scannen, wenn sie einchecken. Um unseren Service zu nutzen, müssen Sie sich für eine unserer Pakete entscheiden und dieses buchen. Bei offenen Fragen schicken Sie uns einfach eine E-Mail.",
+      "activeSubscription": "Derzeit haben Sie das Paket \"{{tier}}\" bis zum {{until}} gebucht",
+      "usage": "Dein Verbrauch",
+      "seats": "Sitzplätze",
+      "locations": "Locations",
+      "extendSubscription": "Wenn Sie Ihr Abonnement verlängern möchten, buchen Sie einfach erneut Ihr Paket und wir kümmern uns um die Verlängerung Ihres Abonnements",
+      "week": "Woche",
+      "onRequest": "Auf Anfrage",
+      "loading": "Laden...",
+      "mostPopular": "Am beliebtesten",
+      "alerts": {
+        "noActiveSubscription": "Sie haben derzeit kein aktives Abonnement. Bitte buchen Sie eines unserer Angebote, um unseren Service zu nutzen. Wir danken Ihnen!"
+      }
+    },
+    "appBar": {
+      "home": "Startseite",
+      "profile": "Profil",
+      "logout": "Ausloggen",
+      "subscriptions": "Abonnement"
+    },
+    "home": {
+      "extend": "Verlängern",
+      "locations": "Locations",
+      "alertText": "Ihr gebuchtes Abonnement läuft innerhalb der nächsten {{days}} Tage ab. Wenn Sie unseren Service weiterhin nutzen möchten, verlängern Sie bitte Ihr Abonnement. Vielen Dank!",
+      "noSubscription": "Kein Tarif",
+      "noSubscriptionTooltip": "Bitte ein Abonnement abschließen"
+    },
+    "charts": {
+      "averagePerDay": "Ø Besuche pro Tag",
+      "totalVisits": "Gesamtbesuche (letzte 30 Tage)",
+      "averageOccupation": "Ø Auslastung (letzte 30 Tage)",
+      "occupation": "Auslastung",
+      "visits": "Besuche",
+      "days": "Tage",
+      "day": "Tag",
+      "notEnoughData": "Entschuldigung, leider verfügen wir derzeit nicht über ausreichend Daten, um Statistiken anzeigen zu können"
+    },
+    "locations": {
+      "addLocation": "Location hinzufügen",
+      "deleteModalText": "Sind Sie sicher, dass Sie diese Location löschen möchten?",
+      "noLocation": "Derzeit sind keine Locations vorhanden, aber Sie können eine hinzufügen wenn Sie möchten."
+    },
+    "locationCard": {
+      "capacity": "Kapazität",
+      "currentVisits": "Aktuelle Besuche",
+      "visits": "Besuche",
+      "delete": "Löschen",
+      "detailsAndEdit": "Details & Bearb."
+    },
+    "visitDrawer": {
+      "currentVisits": "Aktuelle Besuche",
+      "noVisits": "Derzeit sind keine Besuche vorhanden",
+      "exportVisits": "Besuche exportieren",
+      "sendToHealthDepartment": "An das Gesundheitsministerium senden"
+    },
+    "locationDrawer": {
+      "locationDetails": "Location Details",
+      "reachedLimit": "Sie können keine Location hinzufügen, weil Sie das Limit für Ihr Abonnement erreicht haben",
+      "inputs": {
+        "generalInformation": {
+          "title": "Allgemeine Informationen",
+          "id": "ID",
+          "name": "Name",
+          "street": "Straße",
+          "number": "Nummer",
+          "postcode": "PLZ",
+          "city": "Stadt"
+        },
+        "categoryAndCapacity": {
+          "title": "Kategorie und Kapazität",
+          "capacity": "Kapazität",
+          "category": "Kategorie"
+        },
+        "clickToEdit": "Bild zum bearbeiten anklicken"
+      },
+      "cancel": "Abbrechen",
+      "save": "Speichern",
+      "demoBusinessAlert": "Als Demo Business können keine Locations hinzugefügt oder geändert werden!"
+    }
+  },
+  "person": {
+    "home": {
+      "imageSubtitle": "Suche nach Locations!",
+      "searchPlaceholder": "Suche nach Locations",
+      "noResults": "Keine Ergebnisse gefunden!"
+    },
+    "profile": {
+      "profile": "Profil",
+      "profileSettings": "Profil-Einstellungen",
+      "changeEmail": "E-Mail Adresse ändern",
+      "changePassword": "Passwort ändern",
+      "editContactInfo": "Kontakt-Daten ändern",
+      "visitsHistory": "Besuchte Locations",
+      "signOut": "Ausloggen",
+      "signOutMessage": "Bist du sicher, dass du dich ausloggen willst? Du bist momentan noch in einer Location eingecheckt und wirst automatisch ausgechecket.",
+      "alerts": {
+        "emailConfirmation": "Email aktualisiert:",
+        "emailError": "Beim aktualisieren der email ist ein Fehler aufgetreten!",
+        "passwordSuccess": "Passwort erfogreich aktualisiert!",
+        "passwordError": "Fehler beim Updaten des Passworts!",
+        "wrongPassword": "Falsches Passwort!",
+        "profileSuccess": "Profil wurde erfolgreich aktualisiert!",
+        "profileError": "Fehler beim aktualisieren des Profils aufgetreten",
+        "appSettingsConfirmation": "Einstellungen wurde erfolgreich aktualisiert!",
+        "appSettingsError": "Fehler beim aktualisieren der Einstellungen aufgetreten",
+        "demoUserEmail": "Als Demo User kannst du keine Email ändern!",
+        "demoUserPassword": "Als Demo User kannst du dein Passwort nicht ändern!",
+        "demoUserData": "Als Demo User kannst du deine Daten nicht ändern!"
+      },
+      "email": {
+        "currentEmail": "Aktuelle E-Mail-Adresse",
+        "newEmail": "Neue E-Mail-Adresse",
+        "changeEmail": "E-Mail ändern",
+        "invalidEmail": "Ungültige E-Mail-Adresse"
+      },
+      "password": {
+        "currentPassword": "Aktuelles Passwort",
+        "newPassword": "Neues Passwort",
+        "repeatPassword": "Wiederhole Neues Passwort",
+        "changePassword": "Passwort ändern"
+      },
+      "appSettings": "App Einstellungen",
+      "appSetting": {
+        "radius": "Radius",
+        "language": "Sprache",
+        "english": "Englisch",
+        "german": "Deutsch",
+        "saveSettings": "Einstellungen speicher"
+      }
+    },
+    "bottomNavigation": {
+      "profile": "Profil",
+      "scanner": "Scanner",
+      "home": "Start"
+    },
+    "checkIn": {
+      "checkedIn": "Du bist eingeloggt!",
+      "time": "Zeitpunkt:",
+      "at": "um",
+      "clock": "Uhr",
+      "location": "Location:",
+      "address": "Adresse:",
+      "checkOut": "Auschecken",
+      "checkingIn": "Einen Moment! Wir checken dich ein...",
+      "preparingCheckIn": "Einen Moment! Wir bereiten deinen Check-In vor",
+      "checkInDescription": "Du bist momentan an einer Locatin eingeckecket. Wir werden dich automatisch auschecken, wenn du die Location verlässt. Ansonsten kannst du den 'Auschecken'-Knopf manuell drücken. Danke für deinen Besuch!"
+    },
+    "locationCard": {
+      "occupation": "Auslastun"
+    }
+  },
+  "confirmationModal": {
+    "yes": "Ja",
+    "no": "Nein",
+    "title": "Bist du sicher?",
+    "defaultMessage": "Willst du fortfahren?"
+  },
+  "signIn": {
+    "email": "E-Mail-Adresse",
+    "password": "Passwort",
+    "signIn": "Login",
+    "noAccount": "Noch keinen Account? Registriere dich",
+    "register": "Registrierung",
+    "alerts": {
+      "verificationSuccessful": "Account verifizierung war erfolgreich. Du kannst dich nun einloggen.",
+      "registrationSuccessful": "Deine Registrierung war erfolgreich. Du erhälst eine E-Mail, um deinen Account zu verifizieren. Bitte überprüfe auch deinen Spam-Ordner",
+      "validEmail": "Bitte eine valide E-Mail-Adresse angeben",
+      "passwordResetSuccessful": "Wenn ein Konto mit dieser Mail existiert, wurde eine Mail versendet um das Password zurückzusetzen"
+    },
+    "errors": {},
+    "forgotPassword": "Passwort vergessen?"
+  },
+  "modals": {
+    "save": "Speichern",
+    "ok": "OK"
+  },
+  "signUp": {
+    "errors": {
+      "isRequired": "Dieses Feld ist ein Pflichtfeld",
+      "passwordLength": "Das Passwort muss mind. 6 Zeichen lang sein",
+      "confirmWeakPassword": "Bitte die Nutzung eines schwachen Passworts bestätigen",
+      "validEmail": "Bitte eine gültige E-Mail-Adresse eintragen"
+    },
+    "business": {
+      "title": "Unternehmen",
+      "companyName": "Name des Unternehmens"
+    },
+    "person": {
+      "title": "Benutzer",
+      "lastName": "Nachname",
+      "firstName": "Vorname",
+      "street": "Straße",
+      "number": "Nr.",
+      "additionalInfo": "Adresszusatz",
+      "code": "PLZ",
+      "city": "Ort"
+    },
+    "phone": "Telefon-Nummer",
+    "email": "E-Mail-Adresse",
+    "password": "Passwort",
+    "weakPassword": "Ja, ich verwende ein schwaches Passwort",
+    "alreadyAccount": "Du hast einen Account? Logge dich ein",
+    "signUp": "Registrieren"
+  }
+}

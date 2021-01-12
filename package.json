@@ -1,0 +1,20 @@
+{
+  "name": "identify",
+  "version": "1.0.0",
+  "repository": "https://github.com/kuehnleon/identify.git",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "concurrently --kill-others-on-fail \"yarn start:client\" \"yarn start:server\"",
+    "start:win": "concurrently --kill-others-on-fail \"yarn start:client\" \"yarn start:server:win\"",
+    "start:client": "yarn workspace @identify/client start",
+    "start:server": "yarn workspace @identify/server start",
+    "start:server:win": "yarn workspace @identify/server start:win"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
