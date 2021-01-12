@@ -1,16 +1,21 @@
-# Identify - Corona Identification App
+<h3 align="center">
+  <a href="https://github.com/posquit0/Awesome-CV" title="AwesomeCV Documentation">
+    <img alt="Identify" src="https://github.com/kolya-kra/identify/blob/main/docs/media/identify.svg" height="120px" />
+  </a>
+</h3>
 
-![Docker Client Image CI - GitHub](https://github.com/kuehnleon/identify/workflows/Docker%20Client%20Image%20CI%20-%20GitHub/badge.svg?branch=main)
-![Docker Server Image CI - GitHub](https://github.com/kuehnleon/identify/workflows/Docker%20Server%20Image%20CI%20-%20GitHub/badge.svg?branch=main)
+<h3 align="center">
+  COVID‑19 Contact Information App for Restaurants
+</h3>
 
-## Init Project
+<p align="center">
+  <br/>
+  <strong>Explore the webapp</strong>
+    <br />
+    <a href="https://identify.deskcode.de/login?email=demo.user@identify.com&pw=user">Demo User</a>
+    ·
+    <a href="https://identify.deskcode.de/login?email=demo.business@identify.com&pw=business">Demo Business</a>
+  </p>
 
-1. Clone Repository
-2. Run `yarn install` on root-level
-3. Run `yarn start` on root-level to start server and client
+<br >
 
-## Translation
-
-Based on [https://www.robinwieruch.de/react-internationalization](https://www.robinwieruch.de/react-internationalization).
-
-To manage translation strings we are using the [i18n-manager](https://www.electronjs.org/apps/i18n-manager).
