@@ -26,7 +26,7 @@ Customers can simply leave their contact info by checking in to the venue via QR
 
 ## Overview
 
-<img align="center" alt="Identify" src="https://github.com/kolya-kra/identify/blob/main/docs/media/devices.png" height="540px" width="960"/>
+<img align="center" alt="Identify" src="https://github.com/kolya-kra/identify/blob/main/docs/media/devices.png" width="100%"/>
 
 
 ## About The Project
