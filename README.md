@@ -21,8 +21,8 @@
 
 ## What is Identify?
 
-Identify is a **web app for restaurants and bars** during the Corona pandemic. Identify simplifies the process of collecting customer contact information and to contact them in case of a Corona incident. This should help preventing a far reaching spread of COVID-19.
-Customers can simply leave their contact info by checking in to the venue via QR code. Moreover, they can check the current occupation of the venue before entering to reduce the risc of an infection.
+Identify is a **web app for restaurants and bars** during the Corona pandemic. Identify simplifies the process of collecting customer contact information and makes it easy to contact customers in case of a Corona incident. This should help preventing a far reaching spread of COVID-19.
+Customers can simply leave their contact info by checking in to a venue via QR code. Moreover, they can check the current occupation of a venue before entering to reduce the risc of an infection.
 
 ## Overview
 
